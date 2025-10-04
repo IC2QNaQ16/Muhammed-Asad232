@@ -1,0 +1,52 @@
+.content{
+    background-image: url(/images/delicious-hot-and-crispy-fried-chicken-meat-free-photo.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.restaurent-intro{
+    color: white;
+    padding-top: 60px;
+}
+.restaurent-intro h1{
+    font-size: 50px;
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.restaurent-intro p{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu button{
+    width: 210px;
+    height: 38px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+
+}
+.menu{
+    padding-left: 30px;
+}
+.menu button:hover{
+background: linear-gradient(to right, #ff105f, #ffad06);
+transition: 0.5s ease;
+
+}
+.title-rest h2{
+padding: 20px;
+background: linear-gradient(#22b8cf,#e20d9b);
+-webkit-background-clip: text;
+color: transparent;
+font-size: 28px;
+}
